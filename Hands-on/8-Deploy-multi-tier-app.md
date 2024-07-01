@@ -64,6 +64,8 @@ create table emp(name varchar(20), phone varchar(20));
 
 `mysql -u root -p < my.sql`
 
+`mysql --user=root --password= docker`
+
 ![image](https://user-images.githubusercontent.com/37858762/235768631-69f83f60-4471-48dc-bce2-fef00f887128.png)
 
 ### Step 8: Finally check the website, by entering data, and verifying whether your MySQL table is being populated.
