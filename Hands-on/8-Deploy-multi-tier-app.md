@@ -30,7 +30,7 @@
 
 ### Step 2: Now, let's create the webapp service
 
-`docker service create --name website --replicas 3 --network my-overlay --publish 80:80 vistasunil/webapp`
+`docker service create --name website --replicas 3 --network my-overlay --publish 80:80 apatranobis59/webapp`
 
 ![image](https://user-images.githubusercontent.com/37858762/235768520-684f5a5a-8e68-461d-984f-b9872763c817.png)
 
@@ -40,7 +40,7 @@
 
 ### Step 4: Now, let us deploy the DB service
 
-`docker service create --name db --replicas 1 --network my-overlay vistasunil/mysql:5.6`
+`docker service create --name db --replicas 1 --network my-overlay apatranobis59/mysql-webapp:latest`
 
 ![image](https://user-images.githubusercontent.com/37858762/235768555-c3aa5109-1a48-4133-bb82-c89e4e7a5a7c.png)
 
